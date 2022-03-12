@@ -19,6 +19,35 @@ h3 {
   text-align: center;
 }
 
+.App-footer {
+  top: 0;
+  background-color: #282c34;
+  min-height: 12.2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: 4%;
+}
+
+.gmail_icon {
+  width: 3%;
+  height: auto;
+  float: left;
+  border-right: .2rem;
+  position: relative;
+  bottom: -10%;
+}
+
+.linkedin_icon {
+  width: 2.8%;
+  height: auto;
+  float: left;
+  border-right: .2rem;
+  position: relative;
+  bottom: -15%;
+}
+
 .line{
   border-bottom: 1px solid white;
   display: block;
@@ -36,7 +65,7 @@ h3 {
   width: auto;
   height: 35%;
   margin: 0%;
-  position: fixed;
+  position: relative;
 }
 
 .App-logo {

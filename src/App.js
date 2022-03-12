@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import Background from './visuals/Background.jpg';
 import Project1 from './visuals/mm_timetrial.gif';
+import gmail from './visuals/gmail_icon.jpg';
+import linkedin from './visuals/linkedin_icon.jpg';
 import './App.css';
 
 function App() {
@@ -13,9 +15,9 @@ function App() {
       <header className="App-header" style={{
         position: 'relative'
       }}>
-      <img src={Background} className="Header-background" alt="Background"/>
-        <h1>Micheal Mendes</h1>
-        <h2>Software Engineer, Recent Graduate of Worcester State University</h2>
+        <img src={Background} className="Header-background" alt="Background"/>
+          <h1>Micheal Mendes</h1>
+          <h2>Software Engineer, Recent Graduate of Worcester State University</h2>
       </header>
       <span class="line"></span>
       <p className='personalDesc' style={{
@@ -28,7 +30,6 @@ function App() {
         I have a strong backgorund in Java but have exposure to a variety of languages, such as C# and Javascript. This is my personal site though, so no need
         to bore you with my whole resume here, all that fun stuff can be seen on my LinkedIn profile in the footer.
       </p>
-      <span className='divider'></span>
       <div className='App-projects' style={{width: '100%', height: '10%'}}>
         <h3>Projects</h3>
         <span class="line"></span>
@@ -40,6 +41,15 @@ function App() {
           </p>
         <img src={Project1} className='Matrixproj-gif' alt='Project-1' />
     </div>
+      <footer className='App-footer'>
+      <span class="line" style={{marginTop: '-0.5%'}}></span>
+        <a href='mailto:mikehmendes@gmail.com'>
+          <img src={gmail} class="gmail_icon" alt="Gmail Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/michael-mendes-161006199/">
+          <img src={linkedin} class="linkedin_icon" alt="LinkedIn Icon" /> 
+        </a>
+       </footer>
     <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
